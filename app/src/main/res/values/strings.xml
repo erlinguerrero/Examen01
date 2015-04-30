@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Restaurant Tia Veneno</string>
+
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="ajuste">Ajuste</string>
+    <string name="reporte">Reporte</string>
+    <string name="reporteP">Reporte Productos</string>
+    <string name="reporteV">Reporte Ventas</string>
+    <string name="cliente">Cliente</string>
+    <string name="producto">Producto</string>
+    <string name="categoria">categoria</string>
+    <string name="vendedor">vendedor</string>
+    <string name="title_activity_causa">Causa</string>
+    <string name="title_activity_anticucho">anticucho</string>
+    <string name="title_activity_rocoto">Rocoto</string>
+    <string name="title_activity_papa">Papa</string>
+    <string name="title_activity_cebiche">Cebiche</string>
+    <string name="title_activity_saltado">Saltado</string>
+</resources>

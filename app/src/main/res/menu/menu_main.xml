@@ -1,0 +1,47 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".MainActivity">
+    <item android:id="@+id/action_settings" android:title="@string/action_settings"
+        android:orderInCategory="100" app:showAsAction="never" />
+
+    <item android:id="@+id/reporte"
+        android:title="@string/reporte"
+        android:orderInCategory="100"
+        android:icon="@android:drawable/ic_menu_manage"
+        app:showAsAction="ifRoom|withText" >
+        <menu>
+            <item android:id="@+id/rp"
+                android:title="@string/reporteP"
+                app:showAsAction="withText"/>
+            <item android:id="@+id/rv"
+                android:title="@string/reporteV"
+                app:showAsAction="withText"/>
+
+        </menu>
+
+
+    </item>
+
+    <item android:id="@+id/ajuste"
+        android:title="@string/ajuste"
+        android:icon="@android:drawable/ic_menu_agenda"
+        android:orderInCategory="100"
+        app:showAsAction="ifRoom|withText">
+        <menu>
+            <item android:id="@+id/cliente"
+                android:title="@string/cliente"
+                app:showAsAction="withText"/>
+            <item android:id="@+id/producto"
+                android:title="@string/producto"
+                app:showAsAction="withText"/>
+            <item android:id="@+id/categoria"
+                android:title="@string/categoria"
+                app:showAsAction="withText"/>
+            <item android:id="@+id/vendedor"
+                android:title="@string/vendedor"
+                app:showAsAction="withText"/>
+        </menu>
+    </item>
+
+
+</menu>

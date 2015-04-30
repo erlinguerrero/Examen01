@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.erlin.examen01" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Causa"
+            android:label="@string/title_activity_causa" >
+        </activity>
+        <activity
+            android:name=".anticucho"
+            android:label="@string/title_activity_anticucho" >
+        </activity>
+        <activity
+            android:name=".Rocoto"
+            android:label="@string/title_activity_rocoto" >
+        </activity>
+        <activity
+            android:name=".Papa"
+            android:label="@string/title_activity_papa" >
+        </activity>
+        <activity
+            android:name=".Cebiche"
+            android:label="@string/title_activity_cebiche" >
+        </activity>
+        <activity
+            android:name=".Saltado"
+            android:label="@string/title_activity_saltado" >
+        </activity>
+    </application>
+
+</manifest>
