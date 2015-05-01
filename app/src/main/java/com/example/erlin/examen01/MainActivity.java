@@ -95,7 +95,9 @@ public class MainActivity extends ActionBarActivity {
         TabHost.TabSpec spec=tabs.newTabSpec("mitab1");
         spec.setContent(R.id.tab1);
         spec.setIndicator("Inicio");
-       tabs.addTab(spec);
+        Toast toast10 = Toast.makeText(getApplicationContext(),"Welcome To Tia Veneno Restaurant", Toast.LENGTH_SHORT);
+        toast10.show();
+        tabs.addTab(spec);
 
         spec=tabs.newTabSpec("mitab2");
         spec.setContent(R.id.tab2);

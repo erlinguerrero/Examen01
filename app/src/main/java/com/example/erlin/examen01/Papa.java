@@ -38,9 +38,9 @@ public class Papa extends ActionBarActivity {
 
         return super.onOptionsItemSelected(item);
     }
-    public void zoomBack(View button)
+    public void left(View button)
     {
         startActivity(new Intent(this, MainActivity.class));
-        overridePendingTransition(R.anim.zoom_back_in, R.anim.zoom_back_out);
+        overridePendingTransition(R.anim.left_in, R.anim.left_out);
     }
 }

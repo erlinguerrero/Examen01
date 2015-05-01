@@ -39,9 +39,9 @@ public class anticucho extends ActionBarActivity{
 
         return super.onOptionsItemSelected(item);
     }
-    public void zoomBack(View button)
+    public void fade(View button)
     {
         startActivity(new Intent(this, MainActivity.class));
-        overridePendingTransition(R.anim.zoom_back_in, R.anim.zoom_back_out);
+        overridePendingTransition(R.anim.fade_in, R.anim.fade_out);
     }
 }
